@@ -1,232 +1,222 @@
-\# Especificación de Requerimientos
+# Especificación de Requerimientos
 
 
 
-\## 1. Descripción del sistema
+## 1. Descripción del sistema
 
 
 
-\## 2. Integrantes
+## 2. Integrantes
 
 
 
-\- Nombre:Luis Felipe Sanchez Rodriguez
+- Nombre:Luis Felipe Sanchez Rodriguez
 
-\- Nombre: Sofia Navia Crespo
+- Nombre: Sofia Navia Crespo
 
-\- Nombre: Carlos Andres Artunduaga Galarza
+- Nombre: Carlos Andres Artunduaga Galarza
 
-\- Nombre: Camilo Alejandro Bermeo Zorrilla
+- Nombre: Camilo Alejandro Bermeo Zorrilla
 
-\- Nombre: Juan Manuel Ospina Riascos 
-
-
-
-\## 3. Requerimientos Funcionales
+- Nombre: Juan Manuel Ospina Riascos 
 
 
 
-\### RF-01 - \[Nombre del requerimiento]
+## 3. Requerimientos Funcionales
 
 
 
-\#### Resumen
+### RF-01 - \[Nombre del requerimiento]
 
 
 
-\#### Entradas
+#### Resumen
 
 
 
-| Entrada | Tipo de dato | Descripción |
-
-|---|---|---|
-
-
-
-\#### Reglas o condiciones
-
-
-
-\#### Salidas
-
-
-
-| Salida | Tipo de dato | Descripción |
-
-|---|---|---|
-
-
-
-\#### Resultado esperado
-
-
-
-
-
-\### RF-02 - \[Nombre del requerimiento]
-
-
-
-\#### Resumen
-
-
-
-\#### Entradas
+#### Entradas
 
 
 
 | Entrada | Tipo de dato | Descripción |
-
 |---|---|---|
 
 
 
-\#### Reglas o condiciones
+#### Reglas o condiciones
 
 
 
-\#### Salidas
+#### Salidas
 
 
 
 | Salida | Tipo de dato | Descripción |
-
 |---|---|---|
 
 
 
-\#### Resultado esperado
+#### Resultado esperado
 
 
 
 
 
-\### RF-03 - \[Nombre del requerimiento]
+### RF-02 - \[Nombre del requerimiento]
 
 
 
-\#### Resumen
+#### Resumen
 
 
 
-\#### Entradas
+#### Entradas
 
 
 
 | Entrada | Tipo de dato | Descripción |
-
 |---|---|---|
 
 
 
-\#### Reglas o condiciones
+#### Reglas o condiciones
 
 
 
-\#### Salidas
+#### Salidas
 
 
 
 | Salida | Tipo de dato | Descripción |
-
 |---|---|---|
 
 
 
-\#### Resultado esperado
+#### Resultado esperado
 
 
 
 
 
-\### RF-04 - \[Nombre del requerimiento]
+### RF-03 - \[Nombre del requerimiento]
 
 
 
-\#### Resumen
+#### Resumen
 
 
 
-\#### Entradas
+#### Entradas
 
 
 
 | Entrada | Tipo de dato | Descripción |
-
 |---|---|---|
 
 
 
-\#### Reglas o condiciones
+#### Reglas o condiciones
 
 
 
-\#### Salidas
+#### Salidas
 
 
 
 | Salida | Tipo de dato | Descripción |
-
 |---|---|---|
 
 
 
-\#### Resultado esperado
+#### Resultado esperado
 
 
 
 
 
-\### RF-05 - \[Nombre del requerimiento]
+### RF-04 - \[Nombre del requerimiento]
 
 
 
-\#### Resumen
+#### Resumen
 
 
 
-\#### Entradas
+#### Entradas
 
 
 
 | Entrada | Tipo de dato | Descripción |
-
 |---|---|---|
 
 
 
-\#### Reglas o condiciones
+#### Reglas o condiciones
 
 
 
-\#### Salidas
+#### Salidas
 
 
 
 | Salida | Tipo de dato | Descripción |
-
 |---|---|---|
 
 
 
-\#### Resultado esperado
+#### Resultado esperado
 
 
 
 
 
-\## 4. Gestión de Versiones
+### RF-05 - \[Nombre del requerimiento]
 
 
 
-\### Ramas utilizadas
+#### Resumen
 
 
 
-\### Proceso de integración
+#### Entradas
 
 
 
-\### Conflictos encontrados
+| Entrada | Tipo de dato | Descripción |
+|---|---|---|
+
+
+
+#### Reglas o condiciones
+
+
+
+#### Salidas
+
+
+
+| Salida | Tipo de dato | Descripción |
+|---|---|---|
+
+
+
+#### Resultado esperado
+
+
+
+
+
+## 4. Gestión de Versiones
+
+
+
+### Ramas utilizadas
+
+
+
+### Proceso de integración
+
+
+
+### Conflictos encontrados
 
