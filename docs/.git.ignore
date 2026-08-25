@@ -1,7 +1,0 @@
-#Intellij
-.idea/
- *.iml
- out/
- *.class
- *.log
- target/
