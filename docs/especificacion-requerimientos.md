@@ -26,197 +26,211 @@
 
 
 
-### RF-01 - \[Nombre del requerimiento]
-
+### RF-01 - \Registrar tutoria
 
 
 #### Resumen
 
-
+El docente proporcionará los datos necesarios para establecer un espacio de tutoria como lo son fecha, hora,
+tema, cantidad de estudiantes y su codigo, de ahi se dará un mensaje al docente confirmando su espacio
 
 #### Entradas
 
 
 
-| Entrada | Tipo de dato | Descripción |
-|---|---|---|
-
-
-
-#### Reglas o condiciones
-
-
-
-#### Salidas
-
-
-
-| Salida | Tipo de dato | Descripción |
-|---|---|---|
-
-
-
-#### Resultado esperado
-
-
-
-
-
-### RF-02 - \[Nombre del requerimiento]
-
-
-
-#### Resumen
-
-
-
-#### Entradas
-
-
-
-| Entrada | Tipo de dato | Descripción |
-|---|---|---|
-
+| Entrada   | Tipo de dato | Descripción                                           |
+|-----------|---|-------------------------------------------------------|
+| Codigo    |String| El identificador unico del profesor en la universidad |
+| Tema      |String| El tema que se tratará la tutoria                     |
+| Fecha     |LocalDate| La fecha que se dará la tutoria                       |
+| HoraInicio|int| La hora en que inicia la tutoria                      |
+|Cantidad|int|La cantidad de estudiantes que pueden asistir a la tutoria |
 
 
 #### Reglas o condiciones
 
-
+- La fecha no puede ser una anterior a la fecha actual
+- La cantidad maxima de estudiantes es de 10
 
 #### Salidas
 
 
-
-| Salida | Tipo de dato | Descripción |
-|---|---|---|
-
-
-
-#### Resultado esperado
+| Salida       | Tipo de dato | Descripción |
+|--------------|---|---|
+| Confirmación |String|Mensaje que confirma la asignacion "Su tutoria ha sido creada"|
 
 
 
 
-
-### RF-03 - \[Nombre del requerimiento]
-
-
-
-#### Resumen
+\#### Resultado esperado
 
 
 
-#### Entradas
+
+
+\### RF-02 - \[Nombre del requerimiento]
+
+
+
+\#### Resumen
+
+
+
+\#### Entradas
 
 
 
 | Entrada | Tipo de dato | Descripción |
+
 |---|---|---|
 
 
 
-#### Reglas o condiciones
+\#### Reglas o condiciones
 
 
 
-#### Salidas
+\#### Salidas
 
 
 
 | Salida | Tipo de dato | Descripción |
+
 |---|---|---|
 
 
 
-#### Resultado esperado
+\#### Resultado esperado
 
 
 
 
 
-### RF-04 - \[Nombre del requerimiento]
+\### RF-03 - \[Nombre del requerimiento]
 
 
 
-#### Resumen
+\#### Resumen
 
 
 
-#### Entradas
+\#### Entradas
 
 
 
 | Entrada | Tipo de dato | Descripción |
+
 |---|---|---|
 
 
 
-#### Reglas o condiciones
+\#### Reglas o condiciones
 
 
 
-#### Salidas
+\#### Salidas
 
 
 
 | Salida | Tipo de dato | Descripción |
+
 |---|---|---|
 
 
 
-#### Resultado esperado
+\#### Resultado esperado
 
 
 
 
 
-### RF-05 - \[Nombre del requerimiento]
+\### RF-04 - \[Nombre del requerimiento]
 
 
 
-#### Resumen
+\#### Resumen
 
 
 
-#### Entradas
+\#### Entradas
 
 
 
 | Entrada | Tipo de dato | Descripción |
+
 |---|---|---|
 
 
 
-#### Reglas o condiciones
+\#### Reglas o condiciones
 
 
 
-#### Salidas
+\#### Salidas
 
 
 
 | Salida | Tipo de dato | Descripción |
+
 |---|---|---|
 
 
 
-#### Resultado esperado
+\#### Resultado esperado
 
 
 
 
 
-## 4. Gestión de Versiones
+\### RF-05 - \[Nombre del requerimiento]
 
 
 
-### Ramas utilizadas
+\#### Resumen
 
 
 
-### Proceso de integración
+\#### Entradas
 
 
 
-### Conflictos encontrados
+| Entrada | Tipo de dato | Descripción |
+
+|---|---|---|
+
+
+
+\#### Reglas o condiciones
+
+
+
+\#### Salidas
+
+
+
+| Salida | Tipo de dato | Descripción |
+
+|---|---|---|
+
+
+
+\#### Resultado esperado
+
+
+
+
+
+\## 4. Gestión de Versiones
+
+
+
+\### Ramas utilizadas
+
+
+
+\### Proceso de integración
+
+
+
+\### Conflictos encontrados
 
