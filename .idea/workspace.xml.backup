@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6284c37b-38ab-4b3a-b687-863985b1f53f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NainJokes&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lfsanchezrod/ingesoft2-taller-gitflow-20262.git&quot;,
+    &quot;accountId&quot;: &quot;ef2b6d7b-96e4-4d2a-8a13-29a3c9b7cacd&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000000174354" />
+      <entry key="S10" value="1.0000106416423122" />
+      <entry key="S30" value="1.0798559518356385" />
+      <entry key="S60" value="1.7512715529789593" />
+      <entry key="M2" value="3.8401187442679063" />
+      <entry key="M5" value="16.20661754374229" />
+      <entry key="M10" value="35.78409304149535" />
+      <entry key="M15" value="47.83947382338059" />
+      <entry key="M30" value="64.60783778368832" />
+      <entry key="H1" value="75.32899027099411" />
+      <entry key="H2" value="81.3994933802313" />
+      <entry key="H4" value="84.63063158877348" />
+      <entry key="D1" value="87.42858589101763" />
+      <entry key="W1" value="87.91812474673756" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.8408964152537145" />
+      <entry key="MS500" value="0.9659363289248456" />
+      <entry key="S2" value="0.9913730874626621" />
+      <entry key="S5" value="0.9965402628452104" />
+      <entry key="S10" value="0.9982792429635141" />
+      <entry key="S30" value="1.0791957177540181" />
+      <entry key="S60" value="1.7505888864425925" />
+      <entry key="M2" value="3.83923919756906" />
+      <entry key="M5" value="16.204883181134036" />
+      <entry key="M10" value="35.782003718908214" />
+      <entry key="M15" value="47.83755118339789" />
+      <entry key="M30" value="64.60649583850659" />
+      <entry key="H1" value="75.32819461184489" />
+      <entry key="H2" value="81.39905980239394" />
+      <entry key="H4" value="84.63040522476824" />
+      <entry key="D1" value="87.42854677629289" />
+      <entry key="W1" value="87.91811912416908" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3IN5VmTSnWT4KeVzeMRLctfmh3R" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Notification.DisplayName-DoNotAsk-Ridiculous Coding": "Ridiculous Coding",
+    "Notification.DoNotAsk-Ridiculous Coding": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "develop",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6284c37b-38ab-4b3a-b687-863985b1f53f" name="Changes" comment="" />
+      <created>1787592216248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1787592216248</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
