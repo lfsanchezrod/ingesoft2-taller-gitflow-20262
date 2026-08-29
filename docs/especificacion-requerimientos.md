@@ -106,12 +106,13 @@ tema, cantidad de estudiantes y su codigo, de ahi se dará un mensaje al docente
 
 
 
-\### RF-03 - \[Nombre del requerimiento]
+\### RF-03 - Inscribir estudiante a tutoría
 
 
 
 \#### Resumen
 
+El sistema deberá permitir a un estudiante inscribirse en una tutoría previamente registrada, proporcionando su código estudiantil y el identificador único de la tutoría, siempre que existan cupos disponibles.
 
 
 \#### Entradas
@@ -119,30 +120,46 @@ tema, cantidad de estudiantes y su codigo, de ahi se dará un mensaje al docente
 
 
 | Entrada | Tipo de dato | Descripción |
-
 |---|---|---|
+| idEstudiante | String | Código estudiantil que identifica de forma única al estudiante dentro de la Universidad. |
+| idTutoria | String | Identificador único de la tutoría a la cual el estudiante desea inscribirse. |
 
 
 
 \#### Reglas o condiciones
 
+Para que la inscripción sea exitosa, deben cumplirse todas las siguientes condiciones:
+
+1. La tutoría debe existir y estar registrada en el sistema.
+2. Debe haber al menos un cupo disponible (la cantidad de inscritos no puede superar el máximo de 10 estudiantes).
+3. El estudiante no debe estar previamente inscrito en la misma tutoría.
+4. La fecha y hora actual deben ser anteriores a la fecha y hora de inicio de la tutoría.
+5. El estudiante debe encontrarse en estado activo dentro de la Universidad.
+
+
+   Si alguna de estas condiciones no se cumple, la inscripción no debe realizarse.
 
 
 \#### Salidas
 
-
-
 | Salida | Tipo de dato | Descripción |
-
 |---|---|---|
+| mensajeExito | String | Mensaje de confirmación que indica que la inscripción fue realizada exitosamente ("Inscripción realizada con éxito"). |
+| mensajeError | String | Mensaje descriptivo que informa al estudiante el motivo específico por el cual no fue posible realizar la inscripción. |
+
 
 
 
 \#### Resultado esperado
 
+En caso de éxito:
+- El sistema debe registrar al estudiante como inscrito en la tutoría.
+- El sistema debe disminuir en 1 la cantidad de cupos disponibles para esa tutoría.
+- El sistema debe mostrar un mensaje de confirmación al estudiante.
 
-
-
+En caso de fallo:
+- No se debe modificar ningún dato en el sistema.
+- El sistema debe mostrar un mensaje de error indicando claramente la causa del rechazo (p. ej. "No hay cupos disponibles", "Ya se encuentra inscrito", "La tutoría ya inició").
 
 ### RF-04 - Cancelar participación
 
