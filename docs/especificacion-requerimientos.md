@@ -68,36 +68,46 @@ tema, cantidad de estudiantes y su codigo, de ahi se dará un mensaje al docente
 
 
 
-\### RF-02 - \[Nombre del requerimiento]
+\### RF-02 - Consultar tutorias
 
 
 
 \#### Resumen
 
-
+Los estudiantes podrán consultar las tutorias que se encuentran disponibles, se buscan indicando una fecha especifica,
+y opcionalmente, indicar una asignatura o temas de interes.
 
 \#### Entradas
 
 
 
-| Entrada | Tipo de dato | Descripción |
-
-|---|---|---|
+| Entrada   | Tipo de dato | Descripción                                                |
+|-----------|---|------------------------------------------------------------|
+| Fecha     |LocalDate| La fecha que se dará la tutoria                            |
+| Tema      |String| El tema de interés que se tratará la tutoria               |
 
 
 
 \#### Reglas o condiciones
 
-
+- La fecha debe ser una fecha válida.
+- La fecha es obligatoria.
+- La asignatura o tema es opcional.
+- Solo se deben mostrar tutorías que correspondan con la fecha indicada.
+- Si se proporciona una asignatura o tema, la tutoría debe coincidir con este criterio de búsqueda.
 
 \#### Salidas
 
 
 
-| Salida | Tipo de dato | Descripción |
-
-|---|---|---|
-
+| Salida        | Tipo de dato | Descripción                                                                        |
+|---------------|---|------------------------------------------------------------------------------------|
+| Identificador |String| El identificador único de cada tutoria                                             |
+| Tema          |String| El tema que se tratará la tutoria                                                  |
+| Fecha         |LocalDate| La fecha que se dará la tutoria                                                    |
+| Hora          |int| La hora de la tutoria                                                              |
+| Cupos         |int| La cantidad de estudiantes que pueden asistir a la tutoria                         |
+| Mensaje       |String| Mensaje que informa que no se encontaron tutorias que correspondan con su búsqueda |
 
 
 \#### Resultado esperado
