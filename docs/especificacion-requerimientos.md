@@ -253,11 +253,32 @@ La tutoría y todas las inscripciones asociadas a ella son eliminadas del sistem
 
 ### Ramas utilizadas
 
+- origin/HEAD -> origin/main
+- origin/develop
+- origin/feat/rf01-Registro-Tutorias
+- origin/feature/rf02-consulta-tutorias
+- origin/feature/rf03-inscripcion-tutoria
+- origin/feature/rf04-cancelacion-inscripcion
+- origin/feature/rf05-cancelacion-tutoria-profesor
+- origin/fix/correcion-simbolo-markdown
+- origin/main
 
 
 ### Proceso de integración
 
-
+main
+↓
+develop
+↓
+feature/*
+↓
+develop
+↓
+main
 
 ### Conflictos encontrados
 
+Al momento de hacer el merge de los diferentes requerimientos se evidenció que sobreescribian los cambios que se tenían con respecto a los que estaban trayendo. 
+Para mitigar los errores nos apoyamos en la herramienta de Intellij para la gestión de conflictos y garantizar que tanto los cambios realizados por los otros desarrolladores como los que se estaban trayendo se quedaran dentro del archivo.
+
+Igualmente, se tuvo que realizar el comando "git rm -r --cached .idea", ya que a pesar de que se habian agregado al archivo ".gitignore" no se vieron reflejados las excepciones. 
