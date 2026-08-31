@@ -26,7 +26,7 @@
 
 
 
-### RF-01 - \Registrar tutoria
+### RF-01 - Registrar tutoria
 
 
 #### Resumen
@@ -62,22 +62,22 @@ tema, cantidad de estudiantes y su codigo, de ahi se dará un mensaje al docente
 
 
 
-\#### Resultado esperado
+#### Resultado esperado
 
 
 
 
 
-\### RF-02 - Consultar tutorias
+### RF-02 - Consultar tutorias
 
 
 
-\#### Resumen
+#### Resumen
 
 Los estudiantes podrán consultar las tutorias que se encuentran disponibles, se buscan indicando una fecha especifica,
 y opcionalmente, indicar una asignatura o temas de interes.
 
-\#### Entradas
+#### Entradas
 
 
 
@@ -88,7 +88,7 @@ y opcionalmente, indicar una asignatura o temas de interes.
 
 
 
-\#### Reglas o condiciones
+#### Reglas o condiciones
 
 - La fecha debe ser una fecha válida.
 - La fecha es obligatoria.
@@ -96,7 +96,7 @@ y opcionalmente, indicar una asignatura o temas de interes.
 - Solo se deben mostrar tutorías que correspondan con la fecha indicada.
 - Si se proporciona una asignatura o tema, la tutoría debe coincidir con este criterio de búsqueda.
 
-\#### Salidas
+#### Salidas
 
 
 
@@ -110,22 +110,22 @@ y opcionalmente, indicar una asignatura o temas de interes.
 | Mensaje       |String| Mensaje que informa que no se encontaron tutorias que correspondan con su búsqueda |
 
 
-\#### Resultado esperado
+#### Resultado esperado
 
 
 
 
 
-\### RF-03 - Inscribir estudiante a tutoría
+### RF-03 - Inscribir estudiante a tutoría
 
 
 
-\#### Resumen
+#### Resumen
 
 El sistema deberá permitir a un estudiante inscribirse en una tutoría previamente registrada, proporcionando su código estudiantil y el identificador único de la tutoría, siempre que existan cupos disponibles.
 
 
-\#### Entradas
+#### Entradas
 
 
 
@@ -136,7 +136,7 @@ El sistema deberá permitir a un estudiante inscribirse en una tutoría previame
 
 
 
-\#### Reglas o condiciones
+#### Reglas o condiciones
 
 Para que la inscripción sea exitosa, deben cumplirse todas las siguientes condiciones:
 
@@ -150,7 +150,7 @@ Para que la inscripción sea exitosa, deben cumplirse todas las siguientes condi
    Si alguna de estas condiciones no se cumple, la inscripción no debe realizarse.
 
 
-\#### Salidas
+#### Salidas
 
 | Salida | Tipo de dato | Descripción |
 |---|---|---|
@@ -160,7 +160,7 @@ Para que la inscripción sea exitosa, deben cumplirse todas las siguientes condi
 
 
 
-\#### Resultado esperado
+#### Resultado esperado
 
 En caso de éxito:
 - El sistema debe registrar al estudiante como inscrito en la tutoría.
@@ -217,55 +217,47 @@ En caso de fallo:
 - El sistema debe mostrar un mensaje de error indicando claramente la causa del rechazo.
 
 
-\### RF-05 - \[Nombre del requerimiento]
+### RF-05 - Cancelación de tutoría por parte del profesor
 
+#### Resumen
+Permite a un profesor cancelar una tutoría previamente registrada por él, siempre que esta aún no haya comenzado, eliminando la tutoría y las inscripciones asociadas.
 
-
-\#### Resumen
-
-
-
-\#### Entradas
-
-
-
+#### Entradas
 | Entrada | Tipo de dato | Descripción |
-
 |---|---|---|
+| Código de profesor | String / Numérico | Identifica al profesor que solicita la cancelación |
+| Identificador de tutoría | String / Numérico | Identifica de forma única la tutoría a cancelar |
 
+#### Reglas o condiciones
+- La tutoría debe existir en el sistema.
+- La tutoría debe pertenecer al profesor que solicita la cancelación.
+- La tutoría aún no debe haber comenzado (la fecha/hora actual debe ser anterior a la fecha/hora de inicio de la tutoría).
+- Si alguna condición no se cumple, la cancelación no se realiza.
 
-
-\#### Reglas o condiciones
-
-
-
-\#### Salidas
-
-
-
+#### Salidas
 | Salida | Tipo de dato | Descripción |
-
 |---|---|---|
+| Mensaje de confirmación | String | Informa al profesor que la tutoría fue cancelada exitosamente |
+| Mensaje de error | String | Informa el motivo por el cual la cancelación no pudo realizarse |
+
+#### Resultado esperado
+La tutoría y todas las inscripciones asociadas a ella son eliminadas del sistema, y los cupos correspondientes dejan de estar reservados. El profesor recibe confirmación de la operación. Si la cancelación no procede, el sistema informa la causa (tutoría inexistente, no pertenece al profesor, o ya inició).
 
 
 
-\#### Resultado esperado
+
+
+## 4. Gestión de Versiones
 
 
 
-
-
-\## 4. Gestión de Versiones
-
-
-
-\### Ramas utilizadas
+### Ramas utilizadas
 
 
 
-\### Proceso de integración
+### Proceso de integración
 
 
 
-\### Conflictos encontrados
+### Conflictos encontrados
 
